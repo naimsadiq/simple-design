@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+header{
+    background-color: #1B1B1B;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    
+}
+.logo, .menu {
+    margin: 10px 0 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.menu ul li{
+    margin-right: 20px;
+}
+
+.menu ul li a{
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    transition-delay: 0.3s;
+}
+
+.menu ul li a:hover{
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+main .bg-img{
+    background-image: url("camera.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+main .center-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1200vh;
+    /* width: 100%; */
+    text-align: center;
+}
+
+.center-txt h1{
+    font-size: 55px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.center-txt button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-weight: 500;
+}
+
+.center-txt .bg-c{
+    background-color: transparent;
+    color: #fff;
+}
+
+.center-txt .bg-c:hover{
+    background-color: #fff;
+    color: #000;
+}
